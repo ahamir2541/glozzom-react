@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.Navbar{
+    background: black;
+}
+.navbar-dark .navbar-nav .nav-link{
+    text-transform: uppercase;
+}
+.active{
+    color: #16ec16 !important;
+}
+.Navbar a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* footer */
+.footer{
+    background: black;
+}
+/* carousel */
+.w-100{
+    height: 450px;
+}
+/* home section */
+/* HomeIcons */
+.HomeIcons{
+    font-size: 40px;
+}
+/* imag_gallery */
+.imag_gallery{
+    min-height: 250px;
+}
+/* about_content_img */
+.about_content_img{
+    width: 330px;
+    height: 300px;
+}
+.aboutIcons{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+/* featureIcon */
+.featureIcon{
+    font-size: 14px;
+}
+/* NotFound */
+.NotFound{
+    background: #232A4B;
+    min-height: 82vh;
+    color: #ffffff;
+    position: relative;
+}
+.contentPage{
+    background: url(../img/tool.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    top: 0;
+    left: 315px;
+    padding-bottom: 100px;
+}
+.contentPage .NotDigit{
+    color: #fff;
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+}
+.contentPage .NotDigit:hover {
+    opacity: 1;
+}
+.NotDigit .four{
+    display: inline-block;
+    font-size: 100px;
+}
+.NotDigit .zero{
+    font-size: 100px;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.contentPage .Found{
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+    word-spacing: 1px;
+    margin-left: 10px;
+    position: absolute;
+    top: 127px;
+    left: 5px;
+}
+.contentPage .Found:hover {
+    opacity: 1;
+}
+.contentPage .wrong{
+    margin-top: 30px;
+}
+.wrong h2{
+    color: rgba(255, 201, 56);
+    font-size: 50px;
+    font-weight: 300;
+}
+.wrong h2:hover{
+    color: rgb(219, 31, 157);
+}
+.wrong p{
+    font-size: 22px;
+}
+.homeBtn .btn{
+    background: rgba(37, 95, 182, 0.945);
+    color: #fff;
+    width: 150px;
+    padding: 10px; 
+    margin-top: 20px;
+}
+.homeBtn .btn:hover{
+    background: rgb(0, 144, 192);
+    color: #fff;
+}
+
+
+/* media query */
+@media (max-width: 991px) {
+    .content_img{
+        margin-top: 20px;
+    }
+    .AboutContent{
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .GetStartContent{
+        text-align: center;
+    }
+    .GetTuch{
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+@media (max-width: 575px) {
+    .homeForm{
+        display: block;
+    }
+}
+@media (max-width: 508px) { 
+    .carousel_caption h5 {
+        font-size: 35px;
+    }
+    .carousel_caption{
+        text-align: center;
+    }
+ }
